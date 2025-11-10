@@ -6,7 +6,7 @@ O objetivo é demonstrar um fluxo completo de Machine Learning — desde o carre
 ---
 
 ## 📁 Estrutura do Projeto
-
+```bash
 projeto/
 ├── data/ # Dados brutos e processados
 │ ├── raw/
@@ -22,41 +22,47 @@ projeto/
 ├── config.yaml # Arquivo de configuração
 ├── main.py # Script principal
 └── requirements.txt # Dependências do projeto
+```
 ---
-
 ## ⚙️ Requisitos
 
 Antes de rodar, instale as dependências:
 
 ```bash
 pip install -r requirements.txt
+```
 
-🚀 Execução
+## 🚀 Execução
 
 Para treinar o modelo, execute:
 ```bash
 python main.py
-
-Os logs de treinamento serão salvos automaticamente na pasta runs/ para visualização com o TensorBoard:
+```
+Os logs de treinamento serão salvos automaticamente na pasta **runs/** para visualização com o TensorBoard:
 ```bash
 tensorboard --logdir=runs
+```
+## 🧩 Tecnologias Utilizadas
 
-🧩 Tecnologias Utilizadas
+- Python 3.10+
 
-Python 3.10+
+- PyTorch
 
-PyTorch
+- Torchvision
 
-Torchvision
+- TensorBoard
 
-TensorBoard
-
-PyYAML
+- PyYAML
 
 ## 📊 Resultados Esperados
 
 Após o treinamento, o modelo alcançou uma **acurácia superior a 90%** no conjunto de teste, mostrando boa capacidade de generalização no dataset FashionMNIST.
 
-🧑‍💻 Autoria
+## Tensorboard
+<img width="1491" height="746" alt="image" src="https://github.com/user-attachments/assets/96380c2a-94f1-421a-abdd-388d73c6f831" />
+<img width="756" height="727" alt="image" src="https://github.com/user-attachments/assets/bcd54aa6-4197-4e46-bc41-2f0dbf859860" />
+
+
+## 🧑‍💻 Autoria
 
 Desenvolvido por Larissa Silva de Morais Batista
