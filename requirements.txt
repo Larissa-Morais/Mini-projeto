@@ -1,0 +1,5 @@
+torch #para operações com tensores
+torchvision #para transformações e datasets
+tensorboard #para visualização de métricas
+pyyaml #para leitura de arquivos YAML
+

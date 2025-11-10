@@ -1,0 +1,7 @@
+#arquivo para colocar os parâmetros de configuração do projeto
+
+training:
+  epochs: 10
+device: cpu
+train size: 60000
+test size: 10000
