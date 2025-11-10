@@ -1,7 +1,26 @@
 #arquivo para colocar os parâmetros de configuração do projeto
+device: cpu
+
+train size: 60000
+test size: 10000
+
+model:
+  name: "SimpleCNN"
+  dropout: 0.3
+  hidden_units: 128
 
 training:
   epochs: 10
-device: cpu
-train size: 60000
-test size: 10000
+  batch_size: 128
+  learning_rate: 0.001
+  optimizer: "Adam"
+
+data:
+  dataset: "FashionMNIST"
+  download: true
+  num_workers: 2
+  normalize: true
+
+output:
+  checkpoints_dir: "outputs/checkpoints"
+  logs_dir: "outputs/logs"

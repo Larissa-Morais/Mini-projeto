@@ -50,10 +50,7 @@ def train_model():
         print(f'Epoch {epoch}: loss={avg_loss:.4f}, train_acc={train_acc:.4f}, val_acc={val_acc:.4f}')
         writer.add_scalar('Loss/train', avg_loss, epoch)
         writer.add_scalar('Accuracy/train', train_acc, epoch)
-        writer.add_scalar('Accuracy/val', val_acc, epoch)
-
-        # Tente outras formas de visualização
-        # writer.add_scalar('Loss/train', avg_loss, epoch)    
+        writer.add_scalar('Accuracy/val', val_acc, epoch)  
 
     writer.close()
     print(model)
